@@ -20,6 +20,7 @@
     "node": ">=16.0.0",
     "yarn": "yarn 사용안합니다."
   },
+  "engineStrict": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
@@ -42,6 +43,9 @@
     ]
   },
   "devDependencies": {
+    "@emotion/eslint-plugin": "^11.10.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "@trivago/prettier-plugin-sort-imports": "^3.4.0",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1",
